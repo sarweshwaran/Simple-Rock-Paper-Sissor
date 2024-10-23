@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Fun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Rock! Paper!! Sissor!!!</h1>
+    <div id="container">
+        <h1 id="scoreTitle" >Score</h1>
+        <div id="scoreboard">
+            
+            <div class="scorecards">
+                <h3>You</h3> 
+                <div id="playerScore">0</div>
+            </div>
+            <div id="verticleLine"></div>
+            <div class="scorecards">
+                <h3>Opponent</h3>
+                <div id="opponentScore">0</div>
+            </div>
+        </div>
+        <h1 id="topCard">Start Playing!</h1>
+        <div id="opponent">
+            <p>Opponent Move</p>
+            <p class="move" id="opponentMove">-</p>
+        </div>
+        <div id="player">
+            <p>Your Move</p>
+            <p class="move" id="playerMove">-</p>
+        </div>
+        <div id="inputOption">
+            <button value="rock" onclick="play('Rock')">Rock</button>
+            <button value="paper" onclick="play('Paper')">Paper</button>
+            <button value="sissor" onclick="play('Sissor')">Sissor</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

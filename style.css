@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    display: flex;
+    height: 30rem;
+    width: 25rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+button{
+    background-color:cornflowerblue;
+    border: none;
+    border-radius: 2px;
+}
+
+#scoreboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    border: 3px black;
+}
+.scorecards{
+    width: 50pt;
+}
+
+#scoreTitle{
+    text-align: center;
+    height: auto;
+    margin-bottom: 0;
+}
+/*c15 hp, gan/16 57390*/
